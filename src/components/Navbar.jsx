@@ -42,8 +42,7 @@ export default function Navbar() {
             <div className="w-3/12 flex items-center">
                 <a className="text-2xl font-semibold" href="/">Ticket2</a>
             </div>
-            <div className="w-9/12 flex justify-end items-center">
-
+            <div className="w-9/12 flex justify-end items-center text-black">
                 <div className="z-50 flex relative w-8 h-8 flex-col justify-between items-center md:hidden" onClick={() => {
                     setOpen(!open)
                 }}>
@@ -52,7 +51,6 @@ export default function Navbar() {
                     <span className={`h-1 w-full bg-black rounded-lg transition-all duration-300 ease-in-out ${open ? "w-0" : "w-full"}`} />
                     <span className={`h-1 w-full bg-black rounded-lg transform transition duration-300 ease-in-out ${open ? "-rotate-45 -translate-y-3.5" : ""}`} />
                 </div>
-
                 <div className="hidden font-semibold md:flex">
                     <NavLink to="/">
                         HOME

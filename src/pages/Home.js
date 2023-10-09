@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
-import main from '../assets/ticketroc.png'
+import main from '../assets/ticketroc.png';
+import Cards from '../components/Cards';
 
 
 const Home = () => {
@@ -10,23 +11,28 @@ const Home = () => {
         <div>
         <div>
         <div>
-        <h1 className='font-bold text-center text-4xl md:pt-32 pt-10 text-white md:flex md:justify-center'>Your Gateway to Memorable Events!</h1>
+        <h1 className='font-bold text-center text-3xl md:text-4xl md:pt-32 pt-10 text-white md:flex md:justify-center'>Welcome to Ticket2 - Your Premier Ticket Booking Platform</h1>
         </div>
         <div>
-          <p className='text-white text-center py-5 md:flex md:justify-center'>
-          Get ready to dive into the world of exciting events and unforgettable experiences with our very own Showbucks! Your passport to the hottest shows, concerts, sports events, and much more!
+          <p className='text-white text-center font-bold md:font-bold md:text-4xl  py-5 md:flex md:justify-center'>
+          Discover, Reserve, Experience!
           </p>
-          <p className='text-white text-center md:flex md:justify-center'>
-          💰 Seamlessly Buy Tickets: With Showbucks, you can effortlessly purchase event tickets with the currency of fun, simplifying your ticket-buying experienc
-          </p>
-        </div>
-        </div>
         <div className='md:flex md:justify-center'>
           <img className='h-60 pl-5' src={main} alt="main" />
         </div>
-        <div>
-          <h2 className='text-center text-white mt-6'>💼 Host Your Event: If you're an event organizer, Ticket3 offers you a <br/>
-            platform to host and promote your event, complete with the convenience of EventCoin transactions.</h2>
+          <p className='text-white text-center md:flex md:justify-center'>
+          At Ticket2, we believe in the power of experiences. We bring people together to celebrate, learn, and be entertained through a vast array of events hosted by passionate individuals just like you. Whether you're an event organizer or someone seeking a memorable time, Ticket2 is your go-to destination for a world of experiences. Browse events, book tickets, and create unforgettable memories with us.
+          </p>
+        </div>
+        </div>
+        <div className='flex justify-center my-10'>
+          <h1 className='uppercase text-4xl text-white'>On going Events</h1>
+        </div>
+        <div id='cards'>
+        <Cards />
+        </div>
+        <div id='whyTicket2'>
+          
         </div>
         </div>
     </div>
