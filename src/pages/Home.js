@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import main from '../assets/ticketroc.png';
 import Cards from '../components/Cards';
+import Footer from '../components/Footer';
 
 
 const Home = () => {
@@ -35,6 +36,7 @@ const Home = () => {
           
         </div>
         </div>
+        <Footer />
     </div>
   )
 }

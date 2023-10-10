@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
+import Footer from '../components/Footer'
 
 const About = () => {
   return (
@@ -26,6 +27,7 @@ const About = () => {
            a wide range of events to suit all interests.</h1>
         </div>
     </div>
+    <Footer />
     </div>
   )
 }
