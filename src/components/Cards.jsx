@@ -1,6 +1,5 @@
 import React from 'react'
 
-
 const Cards = (props) => {
   return (
     <div className='md:pt-10 md:pl-10 pt-10 pl-10 md:grid md:grid-cols-3'>
